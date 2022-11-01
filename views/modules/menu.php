@@ -5,9 +5,27 @@
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
+
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
-            
+
+            <li class="active">
+                <a href="inicio">
+                    <i class="fa fa-home"></i>
+                    <span>Inicio</span>
+                </a>
+
+            </li>
+
+            <li>
+                <a href="usuarios">
+                    <i class="fa fa-user"></i>
+                    <span>Usuarios</span>
+                </a>
+
+            </li>
+
+<!--
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-user"></i> 
@@ -17,11 +35,11 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="views/index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li><a href="views/index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Todos los usuarios</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Registrar un usuario</a></li>
                 </ul>
             </li>
-            <!--
+
             <li class="treeview">
                 <a href="#">
                     <i class="fa fa-files-o"></i>
@@ -186,7 +204,7 @@
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
       </ul>
-      -->
+-->
     </section>
     <!-- /.sidebar -->
   </aside>
